@@ -1,169 +1,18 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Nyxian.xyz</title>
-  <style>
-    body {
-      margin: 0;
-      min-height: 100vh;
-      background: #181828;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      position: relative;
-      overflow: hidden;
-    }
-    .center-content {
-      z-index: 2;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-    .center-text {
-      color: #ff0000;
-      font-size: 3rem;
-      font-family: 'Segoe UI', Arial, sans-serif;
-      font-weight: bold;
-      text-align: center;
-      text-shadow:
-        0 0 10px #c0000066,
-        0 0 40px #94040422;
-      letter-spacing: 2px;
-      background: linear-gradient(90deg, #ff1313 40%, #7c0000 60%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      margin-bottom: 2rem;
-    }
-    .contact-btn {
-      width: 150px;
-      height: 50px;
-      background: #c40101;
-      color: #ffffff;
-      font-size: 1.2rem;
-      font-family: 'Segoe UI', Arial, sans-serif;
-      border: none;
-      border-radius: 10px;
-      box-shadow: 0 2px 8px #ff260044;
-      cursor: pointer;
-      transition: background 0.2s, box-shadow 0.2s;
-      font-weight: bold;
-      letter-spacing: 1px;
-      outline: none;
-      align-items: center;
-      justify-content: center;
-      margin-top: 0;
-    }
-    .contact-btn:hover {
-      background: #a70000cc;
-      color: #ffffff;
-      box-shadow: 0 4px 16px #57010188;
-    }
-    .correo-btn-container {
-      position: fixed;
-      top: 25px;
-      right: 45px;
-      z-index: 10;
-    }
-    .correo-btn {
-      background: #f70000;
-      color: #fff;
-      font-size: 1.1rem;
-      font-family: 'Segoe UI', Arial, sans-serif;
-      border: none;
-      border-radius: 8px;
-      box-shadow: 0 2px 8px #dd000088;
-      padding: 15px 36px;
-      cursor: pointer;
-      transition: background 0.2s, box-shadow 0.2s;
-      font-weight: bold;
-      letter-spacing: 1px;
-      outline: none;
-      align-items: center;
-      justify-content: center;
-      min-width: 120px;
-      min-height: 40px;
-    }
-    .correo-btn:hover {
-      background: #ff0000cc;
-      color: #ffffff;
-      box-shadow: 0 6px 20px #cc090988;
-    }
-    .nyxian-derechos {
-      position: fixed;
-      top: 25px;
-      left: 45px;
-      z-index: 10;
-      color: #b7c7e0;
-      font-size: 1rem;
-      font-family: 'Segoe UI', Arial, sans-serif;
-      background: rgba(24,24,40,0.74);
-      padding: 8px 22px;
-      border-radius: 8px;
-      box-shadow: 0 2px 8px #222b3a44;
-      user-select: none;
-      pointer-events: none;
-      letter-spacing: 1px;
-    }
-    .telefono-footer {
-      width: 100vw;
-      position: fixed;
-      bottom: 16px;
-      left: 0;
-      text-align: center;
-      color: #b0b0b0;
-      font-size: 0.98rem;
-      font-family: 'Segoe UI', Arial, sans-serif;
-      letter-spacing: 1px;
-      z-index: 20;
-      user-select: none;
-      pointer-events: none;
-    }
-    @media (max-width: 600px) {
-      .correo-btn-container {
-        right: 10px;
-        top: 10px;
-      }
-      .correo-btn {
-        padding: 12px 22px;
-        min-width: 90px;
-        font-size: 1rem;
-      }
-      .center-text {
-        font-size: 2rem;
-      }
-      .nyxian-derechos {
-        left: 10px;
-        top: 10px;
-        padding: 6px 12px;
-        font-size: 0.89rem;
-      }
-      .telefono-footer {
-        font-size: 0.85rem;
-        bottom: 8px;
-      }
-    }
-  </style>
+  <meta charset="UTF-8">
+  <title>NʏxIᴀɴ.xʏᴢ</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="nyxian-derechos">
-    Derechos Reservados para Nyxian.xyz
-  </div>
-  <div class="correo-btn-container">
-    <a href="mailto:Alejandroxddd91@gmail.com" target="_blank" rel="noopener noreferrer">
-      <button class="correo-btn">Correo</button>
-    </a>
-  </div>
-  <div class="center-content">
-    <div class="center-text">Hola, Bienvenido a la pagina de Ian</div>
-
-    <a href="https://silver-giggle-5g7qgr95v6vf46w7-3000.app.github.dev/DOCS/docs" target="_blank" rel="noopener noreferrer">
-      <button class="contact-btn">GitHub</button>
-    </a>
-  </div>
-  <div class="telefono-footer">
-    Contacto: +54 9 3876 63-9332
+  <div class="reserved">Derechos reservados para Nyxian.xyz</div>
+  <div class="message">Powered By ianalejandrook14x</div>
+  <div class="container">
+    <h1>Hola, Bienvenido a la pagina de Ian</h1>
+    <a href="https://github.com/ianalejandrook14x" target="_blank" class="github-btn">GitHub</a>
+    <a href="https://wa.me/+5493876639332" target="_blank" class="whatsapp">WhatsApp</a>
+    <a href="Alejandroxddd91@gmail.com" target="_blank" class="correo">Correo</a>
   </div>
 </body>
 </html>
