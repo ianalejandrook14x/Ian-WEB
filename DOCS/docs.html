@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nyxian.xyz</title>
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: #181828;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      font-family: 'Segoe UI', Arial, sans-serif;
+    }
+
+    .docs-header {
+      color: #ffffff;
+      font-size: 3rem;
+      font-weight: bold;
+      margin-top: 60px;
+      letter-spacing: 3px;
+      text-align: center;
+      background: linear-gradient(90deg, #ff0000cc 50%, #6d0000 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .docs-content {
+      margin-top: 80px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .github-btn {
+      background: #ff2222;
+      color: #fff;
+      border: none;
+      border-radius: 10px;
+      padding: 18px 60px;
+      font-size: 1.3rem;
+      font-weight: bold;
+      letter-spacing: 2px;
+      cursor: pointer;
+      box-shadow: 0 2px 16px #900;
+      transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+      margin-top: 20px;
+    }
+
+    .github-btn:hover {
+      background: #c40000;
+      color: #fff;
+      box-shadow: 0 4px 24px #ff2222bb;
+    }
+
+    @media (max-width: 600px) {
+      .docs-header {
+        font-size: 2rem;
+        margin-top: 32px;
+      }
+      .docs-content {
+        margin-top: 36px;
+      }
+      .github-btn {
+        font-size: 1rem;
+        padding: 12px 30px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="docs-header">Perfil de GitHub</div>
+  <div class="docs-content">
+    <a href="https://github.com/ianalejandrook14x" target="_blank" rel="noopener noreferrer">
+      <button class="github-btn">GitHub</button>
+    </a>
+  </div>
+</body>
+</html>
